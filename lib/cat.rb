@@ -17,7 +17,7 @@ class Cat
 
   #allows for #mood= to change the objects mood when called
   def mood=(mood)
-    self.mood = (mood)
+    self.mood = (mood) if self.mood != mood
   end
 
 end
