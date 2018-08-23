@@ -15,5 +15,10 @@ class Cat
     @mood = "nervous"
   end
 
+  #allows for #mood= to change the objects mood when called
+  def mood=(mood)
+    self.mood = (mood)
+  end
+
 end
 # binding.pry
