@@ -10,6 +10,7 @@ class Cat
   end
 
   # def name=(name)
-    # raise NoMethodError if 
+    # raise NoMethodError if
 
 end
+binding.pry
