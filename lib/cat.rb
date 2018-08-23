@@ -7,10 +7,11 @@ class Cat
 
   def initialize(name)
     @name = name
-    @mood = moo
+    @mood = mood
   end
 
   def mood
+    @mood = mood
     self.mood = "nervous"
   end
 
