@@ -7,13 +7,13 @@ class Cat
 
   def initialize(name)
     @name = name
-    # @mood = mood
-    self.mood
+    @mood = "nervous"
+    # self.mood
   end
 
-  def mood
-    @mood = "nervous"
-  end
+  # def mood
+  #   @mood = "nervous"
+  # end
 
   #allows for #mood= to change the objects mood when called
   def mood=(mood)
