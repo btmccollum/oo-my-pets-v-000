@@ -2,15 +2,14 @@ require 'pry'
 
 class Cat
   # code goes here
-  attr_reader :name
+  
+  attr_reader :name, :owner
 
   def initialize(name)
     @name = name
-
   end
 
-  # def name=(name)
-    # raise NoMethodError if
+  def mood(mood)
 
 end
-binding.pry
+# binding.pry
