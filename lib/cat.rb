@@ -18,7 +18,7 @@ class Cat
   #allows for #mood= to change the objects mood when called
   def mood=(mood)
     binding.pry
-    self.mood = (mood) if self.mood != mood
+    cat.mood = self unless cat.mood == self
   end
 
 end
